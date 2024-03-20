@@ -1,0 +1,25 @@
+<!--
+  ~ /********************************************************************************
+  ~ * Expired Today
+  ~ *
+  ~ * Copyright (c) 2024.
+  ~ * MrKaplan
+  ~ *
+  ~ ********************************************************************************/
+  ~
+  -->
+
+<resources>
+    <string name="app_name">ExpiredToday</string>
+    <string name="add_product">Add Product</string>
+    <string name="product_list">Product List</string>
+    <string name="save_product">Save Product</string>
+    <string name="enter_expiration_date_mm_yyyy">Enter Expiration Date (DD/MM/YYYY)</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="name">Name</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="delete">Delete</string>
+    <string name="today_s_group">Today\'s Group</string>
+    <string name="count">Count</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<!--
+  ~ /********************************************************************************
+  ~ * Expired Today
+  ~ *
+  ~ * Copyright (c) 2024.
+  ~ * MrKaplan
+  ~ *
+  ~ ********************************************************************************/
+  ~
+  -->
+
+<!-- item_product.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <!-- Name -->
+
+    <!-- Expiration Date -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewExpirationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/expiration_date"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/count"
+        android:textAlignment="center" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/delete" />
+</LinearLayout>

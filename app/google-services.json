@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1056782551952",
+    "firebase_url": "https://expiredtoday-72241-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "expiredtoday-72241",
+    "storage_bucket": "expiredtoday-72241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056782551952:android:42e9e8246650a5c9f18115",
+        "android_client_info": {
+          "package_name": "com.mrkaplan.expiredtoday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo5MtvbojKTImEmSk3eJ7zpZKzXds9358"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

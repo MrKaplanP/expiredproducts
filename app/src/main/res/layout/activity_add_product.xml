@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /********************************************************************************
+  ~ * Expired Today
+  ~ *
+  ~ * Copyright (c) 2024.
+  ~ * MrKaplan
+  ~ *
+  ~ ********************************************************************************/
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddProductActivity">
+
+    <!-- Product Name -->
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:autofillHints="none"
+        android:hint="@string/enter_product_name"
+        android:inputType="text" />
+
+    <!-- Expiration Date -->
+
+    <!-- Quantity -->
+    <DatePicker
+        android:id="@+id/etExpirationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autofillHints="none"
+        android:hint="@string/enter_expiration_date_mm_yyyy"
+        android:inputType="date"
+        android:theme="@style/CustomDatePickerDialog"
+        tools:ignore="TextFields" />
+
+    <NumberPicker
+        android:id="@+id/countitem"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/save_product" />
+
+</LinearLayout>
